@@ -25,6 +25,9 @@ a{
 a:hover{
     text-decoration: none;
 }
+.m0-auto{
+    margin: 0 auto;
+}
 .dropdown-toggle::after{
     display: none;
 }
@@ -477,4 +480,186 @@ textarea:focus{
 }
 .box-more-info{
     font-size: 13px;
+}
+.file-display object{
+    width: 100%;
+    height: 600px;
+}
+#create-cv{
+    padding: 30px 0;
+}
+.add-title h4{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+.create-section{
+    background-color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    -moz-box-shadow: 0 2px 6px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 2px 6px 0px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px 0px rgba(0,0,0,0.1);
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    position: relative;
+}
+.create-section .title{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #639c11;
+    padding-bottom: 4px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.list-create{
+    padding-top: 13px;
+    list-style: none;
+    padding-left: 0;
+}
+.list-create .list-item{
+    padding: 13px 0 13px 50px;
+    position: relative;
+    font-size: 15px;
+    cursor: pointer;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    margin-bottom: 4px;
+}
+
+.list-create input:checked, .list-create input:not(:checked){
+    visibility: hidden;
+}
+.list-create input:checked+label, .list-create input:not(:checked)+label {
+    position: relative;
+    cursor: pointer;
+}
+.list-create input:checked+label:before, .list-create input:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: -47px;
+    top: -1px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #b7b7b7;
+    border-radius: 100%;
+    background: #fff;
+}
+.list-create input:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.list-create input:checked+label:after, .list-create input:not(:checked)+label:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #639c11;
+    position: absolute;
+    top: 3px;
+    left: -43px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.list-item label{
+    margin: 0;
+}
+.list-item:hover {
+    background: rgba(42,145,214,0.1);
+}
+.list-create input:checked label{
+    color: #639c11;
+}
+.continue{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid rgba(0,0,0,0.1);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 13px 269px;
+    background-color: #7abd1a;
+    color: #fff;
+}
+.continue:hover{
+    color: #fff;
+}
+.form-themcv{
+    display: none;
+    padding: 30px 0;
+}
+.back{
+    margin-left: 40px;
+    font-size: 20px;
+    color: #7abd1a;
+    cursor: pointer;
+}
+form,textarea{
+    width: 100%;
+}
+.main-form{
+    padding: 0 8%;
+}
+.box-create-left{
+    padding: 15px 45px;
+}
+.box-create-left input,select{
+    width: 100%;
+    padding: 10px;
+}
+.box-create-left label{
+    font-size: 18px;
+}
+input,select:focus{
+    outline: none;
+}
+.main-form .form-group{
+    margin-bottom: 1.5rem;
+}
+.ck.ck-editor__editable_inline>:last-child {
+    height: 300px;
+}
+.box-create-left input[type="file"]{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+textarea{
+    resize: none;
+}
+.box-approve h3{
+    font-size: 1.3rem;
+}
+.box-create-right input{
+    width: 100%;
+    padding: 10px;
+}
+.box-create-right input[type="date"], .box-create-right input[type="text"]{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.box-approve label{
+    text-transform: uppercase;
+}
+.btn-add{
+    margin-left: 230px;
 }
