@@ -288,7 +288,7 @@ a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 287px;
+    width: 200px;
     height: 100%;
     left: 84px;
     top: 85px;
@@ -832,11 +832,11 @@ pre.prettyprint {
 .news-item--img img {
     display: block;
     margin: 0 auto;
-    height: 220px;
+    height: 300px;
 }
 
 .ban-hanh {
-    background: #7abd1a;
+    background: #568c08;
     color: #fff;
     display: inline-block;
     padding: 5px 10px;
@@ -855,7 +855,7 @@ pre.prettyprint {
 }
 
 .loai-congvan {
-    background: #ff1857;
+    background: #ce1414cc;
 }
 
 .news-name h4 {
@@ -929,7 +929,7 @@ pre.prettyprint {
     margin-top: 35px;
 }
 
-.news .col-lg-3 {
+.news .col-lg-4 {
     margin-bottom: 30px;
 }
 
