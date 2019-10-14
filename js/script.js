@@ -47,14 +47,14 @@ $(document).ready(function () {
         }, "slow")
     });
 
-
-    ClassicEditor
-        .create(document.querySelector('#editor'))
-        .catch(error => {
-            console.error(error);
-        });
-
-  
+    $('.btn-toggle').click(function () {
+        $('.master').toggleClass('is-collapsed');
+    });
 
 
+    // ClassicEditor
+    //     .create(document.querySelector('#editor'))
+    //     .catch(error => {
+    //         console.error(error);
+    //     });
 });
