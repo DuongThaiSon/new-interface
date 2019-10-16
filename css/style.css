@@ -1204,3 +1204,6 @@ input[name="username"]:-webkit-autofill:focus {
 .news-caret:hover{
     background: #ddd;
 }
+.logo a:hover{
+    color: #111;
+}
